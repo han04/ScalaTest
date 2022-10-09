@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="742e5970-31e2-45f0-8361-66c1cbc76c0a" name="Changes" comment="函数参数">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Functional_Programming/Test_05_Lambda.scala" afterDir="false" />
+    <list default="true" id="742e5970-31e2-45f0-8361-66c1cbc76c0a" name="Changes" comment="Lambda">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Functional_Programming/Test06_HighOrderFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Functional_Programming/Test07_Practice_CollectionOperation.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,16 +61,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Scala"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Scala&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.Test_05_Lambda">
+}</component>
+  <component name="RunManager" selected="应用程序.Test07_Practice_CollectionOperation">
+    <configuration name="Test06_HighOrderFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functional_Programming.Test06_HighOrderFunction" />
+      <module name="Scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functional_Programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test07_Practice_CollectionOperation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functional_Programming.Test07_Practice_CollectionOperation" />
+      <module name="Scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functional_Programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_01_FunctionAndMethod" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Functional_Programming.Test_01_FunctionAndMethod" />
       <module name="Scala_demo" />
@@ -98,6 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test07_Practice_CollectionOperation" />
+        <item itemvalue="应用程序.Test06_HighOrderFunction" />
         <item itemvalue="应用程序.Test_05_Lambda" />
         <item itemvalue="应用程序.Test_01_FunctionAndMethod" />
       </list>
@@ -114,7 +143,8 @@
       <workItem from="1663596584181" duration="1286000" />
       <workItem from="1663597887357" duration="186000" />
       <workItem from="1663598096662" duration="6493000" />
-      <workItem from="1663768280172" duration="3016000" />
+      <workItem from="1663768280172" duration="3254000" />
+      <workItem from="1665306679741" duration="4234000" />
     </task>
     <task id="LOCAL-00001" summary="函数和方法">
       <created>1663604052033</created>
@@ -137,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663604085029</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lambda">
+      <created>1663771650446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663771650446</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +184,8 @@
     <MESSAGE value="函数和方法" />
     <MESSAGE value="函数定义" />
     <MESSAGE value="函数参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="函数参数" />
+    <MESSAGE value="Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
