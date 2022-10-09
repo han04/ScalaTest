@@ -1,6 +1,6 @@
 package Functional_Programming
 
-object Test07_Practice_CollectionOperation {
+object Test_07_Practice_CollectionOperation {
   def main(args: Array[String]): Unit = {
 
     val arr: Array[Int] = Array(12,45,75,98)
