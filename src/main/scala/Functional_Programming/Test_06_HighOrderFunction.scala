@@ -1,6 +1,6 @@
 package Functional_Programming
 
-object Test06_HighOrderFunction {
+object Test_06_HighOrderFunction {
   def main(args: Array[String]): Unit = {
     def f(n: Int): Int = {
       println("f is used")
